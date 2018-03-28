@@ -1,0 +1,14 @@
+liquibase:
+  contexts: demo
+
+
+spring:
+  application:
+    name: liquibase-demo
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/liquibase_demo?useUnicode=true&characterEncoding=utf8
+    username: root
+    password: root
+
+
