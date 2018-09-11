@@ -7,7 +7,7 @@ spring:
     name: liquibase-demo
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/liquibase_demo?useUnicode=true&characterEncoding=utf8
+    url: jdbc:mysql://192.168.138.1:3306/liquibase_demo?useUnicode=true&characterEncoding=utf8
     username: root
     password: root
 
